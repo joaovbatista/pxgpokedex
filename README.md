@@ -1,4 +1,4 @@
-# pxgpokedex
+# PXG Pokedex
 Um projeto desenvolvido para ser uma pokedex detalhada do game PokeXGames.
 
 Roadmap:
