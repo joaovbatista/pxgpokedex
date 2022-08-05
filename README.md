@@ -2,7 +2,7 @@
 Um projeto desenvolvido para ser uma pokedex detalhada do game PokeXGames.
 
 Roadmap:
-> Integrar o código HTML. (Completo)
+> Integrar o código HTML. (Completo)<br>
 > Criar o design da pokedex. (Completo)
 > Editar os estilos do CSS. (Completo)
 > Integrar a api PokéAPI: https://pokeapi.co/. (Completo)
