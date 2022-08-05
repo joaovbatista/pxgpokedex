@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', cursive;
+}
+
+.title {
+    font-family: 'Pokemon Solid';
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(163, 218, 255), white);
+    min-height: 100vh;
+    margin-right: 900px;
+}
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex {
+    width: 140%;
+    max-width: 900px;
+    margin: auto;
+
+}
+
+.pokemon_img {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    bottom: 65%;
+    left: 7%;
+    transform: translate(-1%, 10%);
+}
+
+.pokemon_data {
+    font-family: 'Nunito';
+    position: absolute;
+    font-weight: 60;
+    font-size: clamp(8px, 4vw, 30px);
+    color: rgb(255, 255, 255);
+    top: 21%;
+    left: 45%;    
+}
+
+.pokemon_name {
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+.form {
+    position: absolute;
+    width: 38%;
+    top: 8.3%;
+    left: 44%;
+}
+
+.input_search {
+    width: 100%;
+    padding: 0.2%;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: clamp(8px, 1vw, 20px);
+}
+
+.buttons {
+    position: absolute;
+    bottom: 65%;
+    left: 58%;
+    width: 70%;
+    height: 5%;
+    transform: translate(-34%);
+    display: flex;
+    padding-left: 10%;
+    gap: 20px;
+}
+
+.button {
+    width: 38%;
+    font-weight: 600;
+    font-size: clamp(10px, 1vw, 20px);
+}
+
+.button:active {
+    background-color: #dc0a2d;
+}
+
+table{
+    margin: auto;
+}
+
+#img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+tr {
+    position: absolute;
+    top: 50%;
+}
